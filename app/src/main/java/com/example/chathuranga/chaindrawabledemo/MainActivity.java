@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.animation.Animation;
+import android.widget.ImageView;
+
 import pl.droidsonroids.gif.AnimationListener;
 import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        GifImageView imageView = (GifImageView)findViewById(R.id.mainImageView);
+        ImageView imageView = (ImageView)findViewById(R.id.mainImageView);
         for( int i=0;i<4;i++){
             drawableArray[i]=GifDrawable.createFromResource(getResources(), gifArray[i]);
         }
