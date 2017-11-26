@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context="com.example.chathuranga.chaindrawabledemo.MainActivity">
 
-    <pl.droidsonroids.gif.GifImageView
+    <com.example.chathuranga.chaindrawabledemo.ChainFriendlyImageView
         android:id="@+id/mainImageView"
         android:layout_width="140dp"
         android:layout_height="140dp"
